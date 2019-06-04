@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         Toast.makeText(this@MainActivity, "ABCD", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this@MainActivity, "WXYZ", Toast.LENGTH_SHORT).show()
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
